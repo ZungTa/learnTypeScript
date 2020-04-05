@@ -4,5 +4,16 @@
   "main": "index.js",
   "repository": "https://github.com/ZungTa/learnTypeScript.git",
   "author": "ZungTa <quddnr0708@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\"",
+    "start2": "node dist/index.js",
+    "prestart": "tsc"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
 }
