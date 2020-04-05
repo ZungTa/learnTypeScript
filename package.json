@@ -1,0 +1,8 @@
+{
+  "name": "learnTypeScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ZungTa/learnTypeScript.git",
+  "author": "ZungTa <quddnr0708@gmail.com>",
+  "license": "MIT"
+}
